@@ -1,0 +1,61 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 500px;
+  width: 440px;
+  border-radius: 20px;
+}
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.para {
+  color: #334155;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.toss-image {
+  height: 170px;
+  width: 160px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 13px;
+  font-family: 'Roboto';
+  height: 45px;
+  width: 4opx;
+  border-radius: 10px;
+  margin: 26px;
+  padding: 10px;
+  font-weight: 500;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.count {
+  color: #475569;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-right: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
